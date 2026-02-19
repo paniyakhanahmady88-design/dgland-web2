@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my-project</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <style>
+      * {
+        direction: rtl;
+      }
+    </style>
+  </head>
+  <body>
+    <!--header-->
+    <div>
+      <img
+        src="/Images/banner.gif"
+        alt=""
+        class="w-full object-fill sm:h-12 lg:h-15"
+      />
+    </div>
+    <nav class="2xl:mx-32 lg:px-4">
+      <div class="">
+        <div class="flex p-3 lg:px-0 items-center">
+          <div class="flex w-full items-center lg:gap-3">
+            <img
+              src="/Images/logo.svg"
+              alt=""
+              class="inline-block w-0 h-0 lg:h-10 lg:w-37.5 invisible lg:visible"
+            />
+            <img
+              src="/Images/menu.svg"
+              alt=""
+              class="lg:w-0 lg:p-0 w-7.75 px-1 pt-1 pb-3"
+            />
+            <div
+              class="bg-[#f6f5f5] flex lg:gap-1.5 rounded-full lg:w-150 xl:px-1 w-full"
+            >
+              <img
+                src="/Images/search.svg"
+                alt=""
+                class="lg:bg-white rounded-[50%] p-1.5 m-0.5"
+              />
+              <input
+                type="text"
+                name=""
+                placeholder="جستجو"
+                id=""
+                class="w-full"
+              />
+              <span
+                class="absolute right-33 top-10 sm:right-33 sm:top-17 text-[#9ea4b0] lg:invisible"
+                >در</span
+              >
+              <img
+                src="/Images/dgland.svg"
+                alt=""
+                class="lg:invisible absolute md:right-28 md:top-17 sm:right-30 sm:top-18 w-[15%] top-10.5 right-32"
+              />
+            </div>
+          </div>
+          <div class="flex lg:gap-2">
+            <button
+              class="rounded-[10px] flex lg:w-40 text-center justify-center border-0 lg:border lg:opacity-100 lg:p-2 lg:border-[#f5f5f5] w-0"
+            >
+              <img src="/Images/vorod.svg" alt="" />
+              <span class="text-[0px] text-[#e10a0a] lg:text-[15px]"
+                >ورود|ثبت‌نام
+              </span>
+            </button>
+            <button
+              class="rounded-[10px] w-0 lg:w-10 border lg:p-2 border-[#f5f5f5]"
+            >
+              <img src="/Images/cart.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="flex w-0 text-[0px] lg:text-[18px] lg:w-full pt-5 pb-6 gap-5">
+        <a
+          href="#"
+          class="font-bold flex gap-1 my-auto text-[#6b6b6b] hover:text-[#e10a0a] ease-in duration-300"
+        >
+          <img src="/Images/kala.svg" alt="" class="w-0 lg:w-6" />
+          دسته بندی کالاها
+        </a>
+        <a
+          href="#"
+          class="flex gap-1 my-auto text-[#7a7a7a] hover:text-[#e10a0a] ease-in duration-300"
+        >
+          <img src="/Images/kharid.svg" alt="" class="w-0 lg:w-6" />
+          خرید اقساطی
+        </a>
+        <a
+          href="#"
+          class="flex gap-1 my-auto text-[#7a7a7a] hover:text-[#e10a0a] ease-in duration-300"
+        >
+          <img src="/Images/majale.svg" alt="" class="w-0 lg:w-6" />
+          مجله دی جی لند
+        </a>
+
+        <a
+          href="#"
+          class="flex gap-1 my-auto text-[#7a7a7a] hover:text-[#e10a0a] ease-in duration-300"
+        >
+          <img src="/Images/takhfif.svg" alt="" class="w-0 lg:w-6" />
+          پیشنهاد طلایی
+        </a>
+
+        <a
+          href="#"
+          class="flex gap-1 my-auto text-[#7a7a7a] hover:text-[#e10a0a] ease-in duration-300"
+        >
+          <img src="/Images/location.svg" alt="" class="w-0 lg:w-6" />
+          شعب دی جی لند
+        </a>
+
+        <a
+          href="#"
+          class="flex gap-1 my-auto text-[#7a7a7a] hover:text-[#e10a0a] ease-in duration-300"
+        >
+          <img src="/Images/bime.svg" alt="" class="w-0 lg:w-6" />
+          خرید بیمه موبایل
+        </a>
+        <!-- <span class="lg:bg-[#e10a0a] text-white rounded-full py-1 px-1.25 absolute lg:right-235 lg:bottom-68 xl:right-240 xl:bottom-75 2xl:right-275 2xl:bottom-105 w-0 text-[0px] bg-none lg:text-[20px] lg:w-19">کار کرده</span>-->
+      </div>
+    </nav>
+
+    <!--slider-->
+    <section>
+      <div>
+        <img
+          src="/Images/slider.jpg"
+          alt=""
+          class="object-fill h-192 lg:h-100 w-full"
+        />
+      </div>
+    </section>
+    <!--circle-->
+    <section>
+      <div class="flex justify-center p-2.5">
+        <span class="text-[22px] m-2">
+          دسته‌بندی‌های پر‌بازدید
+          <img src="/Images/line.svg" alt="" class="mx-18 mt-2" />
+        </span>
+      </div>
+      <div class="mt-5 flex justify-evenly overflow-scroll">
+        <a href="#" class="flex-col gap-2.5">
+          <img src="/Images/01.jpeg" alt="" class="p-2.5" />
+          <span class="text-[14px] px-5">شارژر و پاوربانک</span>
+        </a>
+        <a href="#" class="flex-col gap-2.5">
+          <img src="/Images/01.jpeg" alt="" class="p-2.5" />
+          <span class="text-[14px] px-5">شارژر و پاوربانک</span>
+        </a>
+        <a href="#" class="flex-col gap-2.5">
+          <img src="/Images/01.jpeg" alt="" class="p-2.5" />
+          <span class="text-[14px] px-5">شارژر و پاوربانک</span>
+        </a>
+        <a href="#" class="flex-col gap-2.5">
+          <img src="/Images/01.jpeg" alt="" class="p-2.5" />
+          <span class="text-[14px] px-5">شارژر و پاوربانک</span>
+        </a>
+        <a href="#" class="flex-col gap-2.5">
+          <img src="/Images/01.jpeg" alt="" class="p-2.5" />
+          <span class="text-[14px] px-5">شارژر و پاوربانک</span>
+        </a>
+        <a href="#" class="flex-col gap-2.5">
+          <img src="/Images/01.jpeg" alt="" class="p-2.5" />
+          <span class="text-[14px] px-5">شارژر و پاوربانک</span>
+        </a>
+        <a href="#" class="flex-col gap-2.5">
+          <img src="/Images/01.jpeg" alt="" class="p-2.5" />
+          <span class="text-[14px] px-5">شارژر و پاوربانک</span>
+        </a>
+      </div>
+    </section>
+    <!--ielts-->
+    <section>
+      <div
+        class="mt-12.5 grid grid-cols-1 lg:grid-cols-2 gap-4 2xl:mx-29.5 p-2.5"
+      >
+        <a href="#">
+          <img src="/Images/ielts.png" alt="" class="rounded-[10px] w-full" />
+        </a>
+
+        <a href="#">
+          <img src="/Images/ban1.png" alt="" class="rounded-[10px] w-full" />
+        </a>
+      </div>
+    </section>
+    <!--discount-->
+    <section class="">
+      <div class="mt-7.5 bg-[#e10a0a]">
+        <div class="p-2.5 flex justify-center">
+          <a href="#" class="p-2.5 flex gap-2">
+            <img src="/Images/takh.svg" alt="" />
+            <span class="text-white text-[26px]">تخفیف تایم </span>
+          </a>
+        </div>
+        <div class="py-5 flex justify-center gap-3 overflow-scroll px-10">
+          <div
+            class="bg-white rounded-[28px] p-5 flex-col group hover:bg-black"
+          >
+            <a
+              href=""
+              class="bg-white rounded-[28px] p-5 flex-col group-hover:w-full h-25"
+            >
+              <img src="/Images/02.jpeg" alt="" class="mx-auto" />
+              <span class="mt-3.25 text-[14px] block pb-5"
+                >ساعت هوشمند سامسونگ</span
+              >
+            </a>
+            <span class="block">
+              <span class="text-[#a4a4a4] text-[13px] mr-35 line-through"
+                >7,070,000</span
+              >
+              <span class="text-[#a4a4a4] text-[13px]">تومان</span>
+            </span>
+            <span
+              class="bg-[#e10a0a] rounded-[50%] ml-10 p-0.75 text-[12px] text-white"
+              >%15</span
+            >
+            <span
+              class="text-[#e10a0a] inline-block mr-5 py-2 text-[20px] font-bold"
+              >6,020,000 تومان</span
+            >
+          </div>
+          <div
+            class="bg-white rounded-[28px] p-5 flex-col group hover:bg-black"
+          >
+            <a
+              href=""
+              class="bg-white rounded-[28px] p-5 flex-col group-hover:w-full h-25"
+            >
+              <img src="/Images/02.jpeg" alt="" class="mx-auto" />
+              <span class="mt-3.25 text-[14px] block pb-5"
+                >ساعت هوشمند سامسونگ</span
+              >
+            </a>
+            <span class="block">
+              <span class="text-[#a4a4a4] text-[13px] mr-35 line-through"
+                >7,070,000</span
+              >
+              <span class="text-[#a4a4a4] text-[13px]">تومان</span>
+            </span>
+            <span
+              class="bg-[#e10a0a] rounded-[50%] ml-10 p-0.75 text-[12px] text-white"
+              >%15</span
+            >
+            <span
+              class="text-[#e10a0a] inline-block mr-5 py-2 text-[20px] font-bold"
+              >6,020,000 تومان</span
+            >
+          </div>
+          <div
+            class="bg-white rounded-[28px] p-5 flex-col group hover:bg-black ease"
+          >
+            <a
+              href=""
+              class="bg-white rounded-[28px] p-5 flex-col group-hover:w-full h-25"
+            >
+              <img src="/Images/02.jpeg" alt="" class="mx-auto" />
+              <span class="mt-3.25 text-[14px] block pb-5"
+                >ساعت هوشمند سامسونگ</span
+              >
+            </a>
+            <span class="block">
+              <span class="text-[#a4a4a4] text-[13px] mr-35 line-through"
+                >7,070,000</span
+              >
+              <span class="text-[#a4a4a4] text-[13px]">تومان</span>
+            </span>
+            <span
+              class="bg-[#e10a0a] rounded-[50%] ml-10 p-0.75 text-[12px] text-white"
+              >%15</span
+            >
+            <span
+              class="text-[#e10a0a] inline-block mr-5 py-2 text-[20px] font-bold"
+              >6,020,000 تومان</span
+            >
+          </div>
+          <div class="bg-white rounded-[28px] flex-col group hover:bg-black">
+            <a
+              href=""
+              class="bg-white rounded-[28px] p-5 flex-col group-hover:w-full h-25"
+            >
+              <img src="/Images/02.jpeg" alt="" class="mx-auto" />
+              <span class="mt-3.25 text-[14px] block pb-5"
+                >ساعت هوشمند سامسونگ</span
+              >
+            </a>
+            <span class="block">
+              <span class="text-[#a4a4a4] text-[13px] mr-35 line-through"
+                >7,070,000</span
+              >
+              <span class="text-[#a4a4a4] text-[13px]">تومان</span>
+            </span>
+            <span
+              class="bg-[#e10a0a] rounded-[50%] ml-10 p-0.75 text-[12px] text-white"
+              >%15</span
+            >
+            <span
+              class="text-[#e10a0a] inline-block mr-5 py-2 text-[20px] font-bold"
+              >6,020,000 تومان</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--phone-->
+    <section class="p-2.5 2xl:mx-29.5">
+      <div class="flex justify-center p-2.5">
+        <span class="text-[22px] m-2">
+          گوشی موبایل
+          <img src="/Images/line.svg" alt="" class="mx-10 mt-2" />
+        </span>
+      </div>
+      <div class="flex gap-4 overflow-scroll">
+        <a href="#">
+          <img src="/Images/phonw.jpeg" alt="" class="rounded-[15px]" />
+        </a>
+        <a href="#">
+          <img src="/Images/phonw.jpeg" alt="" class="rounded-[15px]" />
+        </a>
+        <a href="#">
+          <img src="/Images/phonw.jpeg" alt="" class="rounded-[15px]" />
+        </a>
+      </div>
+    </section>
+    <!--favorite phone-->
+    <section class="overflow-scroll">
+      <div class="flex gap-2.5 justify-center mb-5 overflow-hidden">
+        <img src="/public/Images/svgexport-11.svg" alt="" />
+        <h1 class="text-[20px]">محبوب ترین موبایل ها</h1>
+        <img src="/public/Images/svgexport-11.svg" alt="" />
+      </div>
+      <div class="py-10.25 px-6.25 bg-[#f6f5f5] flex gap-2">
+        <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+          <img src="./public/Images/ph.jpeg" alt="" />
+          <span class="inline-block text-[14px] p-2.5"
+            >گوشی موبایل سامسونگ مدل Galaxy A56 5G دو سیم کارت ظرفیت 256
+            گیگابایت</span
+          >
+          <span class="text-red-600 px-3.5 pb-2.5 flex">تومان 62,090,000</span>
+        </div>
+        <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+          <img src="./public/Images/ph.jpeg" alt="" />
+          <span class="inline-block text-[14px] p-2.5"
+            >گوشی موبایل سامسونگ مدل Galaxy A56 5G دو سیم کارت ظرفیت 256
+            گیگابایت</span
+          >
+          <span class="text-red-600 px-3.5 pb-2.5 flex">تومان 62,090,000</span>
+        </div>
+        <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+          <img src="./public/Images/ph.jpeg" alt="" />
+          <span class="inline-block text-[14px] p-2.5"
+            >گوشی موبایل سامسونگ مدل Galaxy A56 5G دو سیم کارت ظرفیت 256
+            گیگابایت</span
+          >
+          <span class="text-red-600 px-3.5 pb-2.5 flex">تومان 62,090,000</span>
+        </div>
+        <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+          <img src="./public/Images/ph.jpeg" alt="" />
+          <span class="inline-block text-[14px] p-2.5"
+            >گوشی موبایل سامسونگ مدل Galaxy A56 5G دو سیم کارت ظرفیت 256
+            گیگابایت</span
+          >
+          <span class="text-red-600 px-3.5 pb-2.5 flex">تومان 62,090,000</span>
+        </div>
+        <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+          <img src="./public/Images/ph.jpeg" alt="" />
+          <span class="inline-block text-[14px] p-2.5"
+            >گوشی موبایل سامسونگ مدل Galaxy A56 5G دو سیم کارت ظرفیت 256
+            گیگابایت</span
+          >
+          <span class="text-red-600 px-3.5 pb-2.5 flex">تومان 62,090,000</span>
+        </div>
+        <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+          <img src="./public/Images/ph.jpeg" alt="" />
+          <span class="inline-block text-[14px] p-2.5"
+            >گوشی موبایل سامسونگ مدل Galaxy A56 5G دو سیم کارت ظرفیت 256
+            گیگابایت</span
+          >
+          <span class="text-red-600 px-3.5 pb-2.5 flex">تومان 62,090,000</span>
+        </div>
+      </div>
+    </section>
+    <!--speaker-->
+    <section class="p-2.5 2xl:mx-29.5">
+      <div class="flex justify-center p-2.5"></div>
+      <div class="flex gap-4 overflow-scroll">
+        <a href="#">
+          <img src="/Images/speaker.jpeg" alt="" class="rounded-[15px]" />
+        </a>
+        <a href="#">
+          <img src="/Images/speaker.jpeg" alt="" class="rounded-[15px]" />
+        </a>
+        <a href="#">
+          <img src="/Images/speaker.jpeg" alt="" class="rounded-[15px]" />
+        </a>
+      </div>
+    </section>
+    <!--best phone-->
+    <section>
+      <div class="mt-2.5 px-2.5 py-5">
+        <img src="./public/Images/favorite.png" alt="" />
+      </div>
+    </section>
+    <!--laptop-->
+    <section class="p-2.5 2xl:mx-29.5">
+      <div class="flex justify-center p-2.5"></div>
+      <div class="flex gap-4 overflow-scroll">
+        <a href="#">
+          <img src="/Images/laptop.jpeg" alt="" class="rounded-[15px]" />
+        </a>
+        <a href="#">
+          <img src="/Images/laptop.jpeg" alt="" class="rounded-[15px]" />
+        </a>
+        <a href="#">
+          <img src="/Images/laptop.jpeg" alt="" class="rounded-[15px]" />
+        </a>
+      </div>
+    </section>
+    <!--favorite sells-->
+    <section class="overflow-scroll">
+      <div class="flex gap-2.5 justify-center mb-5 overflow-hidden">
+        <img src="/public/Images/svgexport-11.svg" alt="" />
+        <h1 class="text-[20px]">محبوب ترین های لوازم جانبی</h1>
+        <img src="/public/Images/svgexport-11.svg" alt="" />
+      </div>
+      <div class="py-10.25 px-6.25 bg-[#f6f5f5] flex gap-2">
+        <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+          <img src="./public/Images/airpod.jpeg" alt="" />
+          <span class="inline-block text-[14px] p-2.5"
+            >هدفون بلوتوثی کیو سی وای مدل T13 TWS</span
+          >
+          <span class="text-red-600 px-3.5 pb-2.5 flex">تومان 1,790,000</span>
+        </div>
+        <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+          <img src="./public/Images/airpod.jpeg" alt="" />
+          <span class="inline-block text-[14px] p-2.5"
+            >هدفون بلوتوثی کیو سی وای مدل T13 TWS</span
+          >
+          <span class="text-red-600 px-3.5 pb-2.5 flex">تومان 1,790,000</span>
+        </div>
+        <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+          <img src="./public/Images/airpod.jpeg" alt="" />
+          <span class="inline-block text-[14px] p-2.5"
+            >هدفون بلوتوثی کیو سی وای مدل T13 TWS</span
+          >
+          <span class="text-red-600 px-3.5 pb-2.5 flex">تومان 1,790,000</span>
+        </div>
+        <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+          <img src="./public/Images/airpod.jpeg" alt="" />
+          <span class="inline-block text-[14px] p-2.5"
+            >هدفون بلوتوثی کیو سی وای مدل T13 TWS</span
+          >
+          <span class="text-red-600 px-3.5 pb-2.5 flex">تومان 1,790,000</span>
+        </div>
+        <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+          <img src="./public/Images/airpod.jpeg" alt="" />
+          <span class="inline-block text-[14px] p-2.5"
+            >هدفون بلوتوثی کیو سی وای مدل T13 TWS</span
+          >
+          <span class="text-red-600 px-3.5 pb-2.5 flex">تومان 1,790,000</span>
+        </div>
+        <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+          <img src="./public/Images/airpod.jpeg" alt="" />
+          <span class="inline-block text-[14px] p-2.5"
+            >هدفون بلوتوثی کیو سی وای مدل T13 TWS</span
+          >
+          <span class="text-red-600 px-3.5 pb-2.5 flex">تومان 1,790,000</span>
+        </div>
+      </div>
+    </section>
+    <!--best sell-->
+    <section>
+      <div class="bg-[#2b2b2b] pt-6.5">
+        <img src="./public/Images/bestSellsDesktop.png" alt="" />
+        <div class="px-2.5 py-6.75 bg-black flex gap-5">
+          <div
+            class="sm:opacity-0 lg:opacity-100 bg-[#2b2b2b] rounded-[50%] w-9 h-9 absolute right-75 top-1060"
+          ></div>
+          <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+            <img src="./public/Images/sharj.jpeg" alt="" class="flex mt-7.75" />
+            <span class="inline-block text-[14px] p-2.5 mt-7.75"
+              >شارژر اپل مدل 20 وات</span
+            >
+            <span class="text-red-600 px-4 pb-2.5 flex">تومان 2,800,000</span>
+          </div>
+          <div
+            class="sm:opacity-0 lg:opacity-100 bg-[#2b2b2b] rounded-[50%] w-9 h-9 absolute right-75 top-1060"
+          ></div>
+          <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+            <img src="./public/Images/sharj.jpeg" alt="" class="flex mt-7.75" />
+            <span class="inline-block text-[14px] p-2.5 mt-7.75"
+              >شارژر اپل مدل 20 وات</span
+            >
+            <span class="text-red-600 px-4 pb-2.5 flex">تومان 2,800,000</span>
+          </div>
+          <div
+            class="sm:opacity-0 lg:opacity-100 bg-[#2b2b2b] rounded-[50%] w-9 h-9 absolute right-75 top-1060"
+          ></div>
+          <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+            <img src="./public/Images/sharj.jpeg" alt="" class="flex mt-7.75" />
+            <span class="inline-block text-[14px] p-2.5 mt-7.75"
+              >شارژر اپل مدل 20 وات</span
+            >
+            <span class="text-red-600 px-4 pb-2.5 flex">تومان 2,800,000</span>
+          </div>
+          <div
+            class="sm:opacity-0 lg:opacity-100 bg-[#2b2b2b] rounded-[50%] w-9 h-9 absolute right-75 top-1060"
+          ></div>
+          <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+            <img src="./public/Images/sharj.jpeg" alt="" class="flex mt-7.75" />
+            <span class="inline-block text-[14px] p-2.5 mt-7.75"
+              >شارژر اپل مدل 20 وات</span
+            >
+            <span class="text-red-600 px-4 pb-2.5 flex">تومان 2,800,000</span>
+          </div>
+          <div
+            class="sm:opacity-0 lg:opacity-100 bg-[#2b2b2b] rounded-[50%] w-9 h-9 absolute right-75 top-1060"
+          ></div>
+
+          <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+            <img src="./public/Images/sharj.jpeg" alt="" class="flex mt-7.75" />
+            <span class="inline-block text-[14px] p-2.5 mt-7.75"
+              >شارژر اپل مدل 20 وات</span
+            >
+            <span class="text-red-600 px-4 pb-2.5 flex">تومان 2,800,000</span>
+          </div>
+          <div
+            class="sm:opacity-0 lg:opacity-100 bg-[#2b2b2b] rounded-[50%] w-9 h-9 absolute right-75 top-1060"
+          ></div>
+          <div class="w-50 pt-7.5 bg-white gap-1 rounded-[21px]">
+            <img src="./public/Images/sharj.jpeg" alt="" class="flex mt-7.75" />
+            <span class="inline-block text-[14px] p-2.5 mt-7.75"
+              >شارژر اپل مدل 20 وات</span
+            >
+            <span class="text-red-600 px-4 pb-2.5 flex">تومان 2,800,000</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->>
+    <footer>
+      <div class="flex gap-2.5 justify-center mb-5 overflow-hidden">
+        <img src="/public/Images/svgexport-11.svg" alt="" />
+        <h1 class="text-[20px]">برند های برتر</h1>
+        <img src="/public/Images/svgexport-11.svg" alt="" />
+      </div>
+      <div class="flex justify-around pb-8">
+        <img
+          src="./public/Images/jbl.png"
+          alt=""
+          class="inline-block w-22 h-10"
+        />
+        <img
+          src="./public/Images/sony.png"
+          alt=""
+          class="inline-block w-22 h-10"
+        />
+        <img
+          src="./public/Images/promate.png"
+          alt=""
+          class="inline-block w-22 h-10"
+        />
+        <img
+          src="./public/Images/jbl.png"
+          alt=""
+          class="inline-block w-22 h-10"
+        />
+        <img
+          src="./public/Images/sony.png"
+          alt=""
+          class="inline-block w-22 h-10"
+        />
+        <img
+          src="./public/Images/promate.png"
+          alt=""
+          class="inline-block w-22 h-10"
+        />
+      </div>
+      <div class="mt-4 border-2 border-[#e9ebee] m-2 rounded-2xl grid">
+        <p class="inline-block px-14">
+          خرید گوشی خرید گوشی و خرید اینترنتی گوشی در این روزها، می‌تواند زمان
+          زیادی از شما بگیرد. در هنگام خرید گوشی موبایل باید به نکات متعددی
+          مانند خرید گوشی موبایل، امکانات گوشی موبایل، ضمانت گوشی موبایل و
+          رجیستری گوشی موبایل در کنار اصالت فروشگاه موبایل دقت کرد. مهم‌‎ترین
+          عامل اثرگذار در تصمیم گیری ما، قیمت روز گوشی موبایل می‌باشد. شما
+          می‌توانید از طریق خرید اینترنتی گوشی از فروشگاه اینترنتی موبایل یا
+          خرید حضوری از شعب دی‌جی‌لند اقدام به خرید گوشی سامسونگ، خرید گوشی
+          شیائومی و سایر برندها کنید. فروشگاه اینترنتی موبایل خرید گوشی موبایل
+          از فروشگاه اینترنتی موبایل، یکی از سریع‌ترین راه‌ها به شمار می‌آید. در
+          زمان خرید اینترنتی گوشی موبایل، باید به نکاتی مانند نشان نماد
+          الکترونیکی، پروتکل SSL و درگاه امن پرداخت فروشگاه اینترنتی توجه کنید.
+          قبل از خرید موبایل، نظرات کاربران را بررسی کنید. این نظرات می‌تواند به
+          شما درک بهتری از تجربه خرید دیگران و کیفیت سرویس‌دهی آن فروشگاه
+          اینترنتی بدهد. مورد بعدی که می‌بایست به آن دقت شود اصالت کالای دیجیتال
+          است.
+        </p>
+        <a href="#" class="text-[#0a8aff] inline-block px-14">مشاهده بیشتر</a>
+      </div>
+      <div class="mt-4 border-2 border-[#e9ebee] m-2 rounded-2xl grid sm:px-10 lg:px-2.5">
+        <img
+          src="./public/Images/dgland_footer_logo.svg"
+          alt=""
+          class="block"
+        />
+        <div>
+          <div class="flex justify-between">
+            <div>
+              <h1 class="text-xl">خدمات مشتریان</h1>
+              <h6>تماس با ما</h6>
+              <h6>درباره ما</h6>
+              <h6>تماس با ما</h6>
+              <h6>درباره ما</h6>
+              <h6>تماس با ما</h6>
+              <h6>درباره ما</h6>
+              <h6>تماس با ما</h6>
+              <h6>درباره ما</h6>
+              <h6>تماس با ما</h6>
+              <h6>درباره ما</h6>
+            </div>
+            <div>
+              <h1 class="text-xl">خدمات مشتریان</h1>
+              <h6>تماس با ما</h6>
+              <h6>درباره ما</h6>
+              <h6>تماس با ما</h6>
+              <h6>درباره ما</h6>
+              <h6>تماس با ما</h6>
+              <h6>درباره ما</h6>
+              <h6>تماس با ما</h6>
+              <h6>درباره ما</h6>
+              <h6>تماس با ما</h6>
+              <h6>درباره ما</h6>
+            </div>
+            <div>
+              <h1 class="text-xl">خدمات مشتریان</h1>
+              <h6>تماس با ما</h6>
+              <h6>درباره ما</h6>
+              <h6>تماس با ما</h6>
+              <h6>درباره ما</h6>
+              <h6>تماس با ما</h6>
+              <h6>درباره ما</h6>
+              <h6>تماس با ما</h6>
+              <h6>درباره ما</h6>
+              <h6>تماس با ما</h6>
+              <h6>درباره ما</h6>
+            </div>
+            <div>
+              <h1 class="text-xl">ساعت پاسخگویی</h1>
+              <h6>شنبه تا چهارشنبه 9 الی 17 و پنجشنبه ها 9 الی 13</h6>
+              <span class="flex">
+                <img src="./public/Images/svgviewer-output (3).svg" alt="" />
+                تلفن امور مشتریان
+                <br />
+                021-441016
+              </span>
+              <span class="flex">
+                <img src="./public/Images/svgviewer-output (3).svg" alt="" />
+                تلفن امور مشتریان
+                <br />
+                021-441016
+              </span>
+            </div>
+            <div>
+              <h1 class="inline-block mb-4">مارا دنبال کنید</h1>
+              <div class="flex gap-3">
+                <img src="./public/Images/svgviewer-output (4).svg" alt="" />
+                <img src="./public/Images/svgviewer-output (4).svg" alt="" />
+                <img src="./public/Images/svgviewer-output (4).svg" alt="" />
+                <img src="./public/Images/svgviewer-output (4).svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-10">
+          <h1>فروشگاه اینترنتی <span class="text-red-500">دی‌جی‌لند </span></h1>
+          <div class="flex justify-between">
+            <span>
+              فروشگاه اینترنتی دی‌جی‌لند به طور رسمی در فروردین ماه ۹۹ با توجه
+             <br> به رشد روزافزون خدمات اینترنتی و دنیای تکنولوژی در جهان امروز و
+              نیاز به کالاهای دیجیتال تاسیس شد .<br> هدف این فروشگاه اینترنتی
+              خدمت‌رسانی و تامین جدیدترین مدل‌ها از معتبرترین برند‌های کالای
+              دیجیتال ، لوازم خانگی و سرگرمی است.</span
+            >
+            <div class="flex gap-2">
+              <img
+                src="./public/Images/logo.png"
+                alt=""
+                class="inline-block w-20 h-20"
+              />
+              <img
+                src="./public/Images/samandehi.webp"
+                alt=""
+                class="inline-block w-20 h-20"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
