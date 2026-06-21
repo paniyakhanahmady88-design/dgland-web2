@@ -1,0 +1,244 @@
+{
+  "slider": [
+    {
+      "id": 1,
+      "img": "./public/Images/001.webp",
+      "alt": "ghosh"
+    },
+    {
+      "id": 2,
+      "img": "./public/Images/002.webp",
+      "alt": "tek"
+    },
+    {
+      "id": 3,
+      "img": "./public/Images/003.jpeg",
+      "alt": "phone"
+    },
+    {
+      "id": 4,
+      "img": "./public/Images/004.webp",
+      "alt": "power"
+    }
+  ],
+  "story": [
+    {
+      "id": 5,
+      "img": "./Images/0001.png",
+      "alt": "charger",
+      "title": "گوشی موبایل"
+    },
+    {
+      "id": 6,
+      "img": "./Images/0002.png",
+      "alt": "charger",
+      "title": "لپ تاپ"
+    },
+    {
+      "id": 7,
+      "img": "./Images/0003.png",
+      "alt": "charger",
+      "title": "هدفون و هندزفری"
+    },
+    {
+      "id": 8,
+      "img": "./Images/0001.png",
+      "alt": "charger",
+      "title": "گوشی موبایل"
+    },
+    {
+      "id": 9,
+      "img": "./Images/0002.png",
+      "alt": "charger",
+      "title": "لپ تاپ"
+    },
+    {
+      "id": 10,
+      "img": "./Images/0003.png",
+      "alt": "charger",
+      "title": "هدفون و هندزفری"
+    },
+    {
+      "id": 11,
+      "img": "./Images/0001.png",
+      "alt": "charger",
+      "title": "گوشی موبایل"
+    }
+  ],
+  "ielts": [
+    {
+      "id": 12,
+      "img": "./Images/ielts.png"
+    },
+        {
+      "id": 13,
+      "img": "./Images/ban1.png"
+    }
+  ],
+  "discount":[
+    {
+      "id":14,
+      "img":"./Images/02.jpeg",
+      "title":"ساعت هوشمند سامسونگ"
+    },
+    {
+      "id":15,
+      "img":"./Images/03.jpeg",
+      "title":"اسپیکر بلوتوثی"
+    },
+    {
+      "id":16,
+      "img":"./Images/02.jpeg",
+      "title":"ساعت هوشمند سامسونگ"
+    },
+    {
+      "id":17,
+      "img":"./Images/03.jpeg",
+      "title":"اسپیکر بلوتوثی"
+    },
+    {
+      "id":18,
+      "img":"./Images/02.jpeg",
+      "title":"ساعت هوشمند سامسونگ"
+    },
+    {
+      "id":19,
+      "img":"./Images/03.jpeg",
+      "title":"اسپیکر بلوتوثی"
+    }
+  ],
+  "phone":[
+    {
+      "id":20,
+      "img":"./Images/phonw.jpeg"
+    },
+    {
+      "id":21,
+      "img":"./Images/phonw.jpeg"
+    },
+    {
+      "id":22,
+      "img":"./Images/phonw.jpeg"
+    }
+  ],
+  "favphone":[
+    {
+      "id":23,
+      "img":"./Images/ph.jpeg"
+    },
+        {
+      "id":24,
+      "img":"./Images/ph.jpeg"
+    },
+        {
+      "id":25,
+      "img":"./Images/ph.jpeg"
+    },
+        {
+      "id":26,
+      "img":"./Images/ph.jpeg"
+    },
+        {
+      "id":27,
+      "img":"./Images/ph.jpeg"
+    },
+      {
+      "id":28,
+      "img":"./Images/ph.jpeg"
+    }
+  ],
+  "speaker":[
+    {
+      "id":29,
+      "img":"./Images/speaker.jpeg"
+    },
+     {
+      "id":30,
+      "img":"./Images/speaker.jpeg"
+    },
+     {
+      "id":31,
+      "img":"./Images/speaker.jpeg"
+    }
+  ],
+  "bestphone":[
+    {
+      "id":32,
+      "img":"./public/Images/favorite.png"
+    }
+  ],
+  "laptop":[
+    {
+      "id":33,
+      "img":"/Images/laptop.jpeg"
+    },
+    {
+      "id":34,
+      "img":"/Images/laptop.jpeg"
+    },
+    {
+      "id":35,
+      "img":"/Images/laptop.jpeg"
+    }
+  ],
+  "favsell":[
+    {
+      "id":36,
+      "img":"./public/Images/airpod.jpeg"
+    },
+    {
+      "id":37,
+      "img":"./public/Images/airpod.jpeg"
+    },
+    {
+      "id":38,
+      "img":"./public/Images/airpod.jpeg"
+    },
+    {
+      "id":39,
+      "img":"./public/Images/airpod.jpeg"
+    },
+    {
+      "id":40,
+      "img":"./public/Images/airpod.jpeg"
+    },
+    {
+      "id":41,
+      "img":"./public/Images/airpod.jpeg"
+    },
+    {
+      "id":42,
+      "img":"./public/Images/airpod.jpeg"
+    }
+  ],
+  "bestsell":[
+    {
+      "id":43,
+      "img":"./public/Images/sharj.jpeg"
+    },
+     {
+      "id":44,
+      "img":"./public/Images/sharj.jpeg"
+    },
+     {
+      "id":45,
+      "img":"./public/Images/sharj.jpeg"
+    },
+     {
+      "id":46,
+      "img":"./public/Images/sharj.jpeg"
+    },
+     {
+      "id":47,
+      "img":"./public/Images/sharj.jpeg"
+    },
+     {
+      "id":48,
+      "img":"./public/Images/sharj.jpeg"
+    },
+     {
+      "id":49,
+      "img":"./public/Images/sharj.jpeg"
+    }
+  ]
+}
